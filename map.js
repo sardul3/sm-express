@@ -37,12 +37,12 @@ function addInfoBubble(map) {
     '<div>Store I' +
     '</div><div >3182677421<br><a href=\'http://www.mcfc.co.uk\' >Visit Us</a></div>');
 
-  addMarkerToGroup(group, {lat:32.480287, lng:-92.154771},
+  addMarkerToGroup(group, {lat:32.488610, lng:-92.155700},
     '<div >Store II' +
     '</div><div >3185528465<br><a href=\'http://www.liverpoolfc.tv\' >Visit Us</a></div>');
 
-  addMarkerToGroup(group, {lat:32.486532, lng:-91.859295},
-      '<div >Store III' +
+  addMarkerToGroup(group, {lat:32.480830, lng:-91.861060},
+      '<div >Start Travel Plaza' +
       '</div><div >3185576869<br><a href=\'http://www.liverpoolfc.tv\' >Visit Us </a></div>');
 
 }
