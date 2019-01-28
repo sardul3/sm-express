@@ -1,7 +1,17 @@
+body{
+  margin: 0 auto;
+}
+
 img{
   height: 500px;
   width: 200px;
 }
 #map{
   margin-bottom: 10px;
+}
+
+.sm-img{
+  height: 140px;
+  width: auto;
+  max-width: 100%;
 }
