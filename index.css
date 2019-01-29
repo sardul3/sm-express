@@ -18,3 +18,18 @@ img{
 /* .list-group{
   border-color: white;
 } */
+
+.carousel-item{
+  transition: transform 1s ease, opacity 1s ease-out;
+}
+
+.contact_area{
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+.contact_email{
+  padding: 10px;
+  border: 3px solid #007bff;
+  border-radius: 12px;
+}

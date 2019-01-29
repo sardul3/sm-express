@@ -70,6 +70,10 @@ var map = new H.Map(document.getElementById('map'),
   pixelRatio: pixelRatio
 });
 
+window.addEventListener('resize', function () {
+    map.getViewPort().resize();
+});
+
 // MapEvents enables the event system
 // Behavior implements default interactions for pan/zoom (also on mobile touch environments)
 var behavior = new H.mapevents.Behavior(new H.mapevents.MapEvents(map));
