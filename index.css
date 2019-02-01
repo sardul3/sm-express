@@ -13,7 +13,8 @@ img{
   margin-bottom: 10px;
 } */
 #carouselExampleIndicators{
-  padding-top:70px;
+  padding-top:20px;
+  padding-bottom: 20px;
 }
 /* .list-group{
   border-color: white;
@@ -29,7 +30,52 @@ img{
 }
 
 .contact_email{
-  padding: 10px;
-  border: 3px solid #007bff;
-  border-radius: 12px;
+  margin:0 auto;
+  padding-top: 60px;
+  border: 20px solid white;
+
+}
+
+#carouselExampleIndicators{
+  padding-bottom: 50px;
+}
+
+.line-center{
+    margin:0;
+    padding:0 10px;
+    background:#fff;
+    display:inline-block;
+        font-family: 'Raleway', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+}
+.locate{
+
+    text-align:center;
+    position:relative;
+    z-index:2;
+    color: green;
+    padding-bottom: 20px;
+
+}
+.locate:after{
+    content:"";
+    position:absolute;
+    top:50%;
+    left:0;
+    right:0;
+    border-top:solid 1px green;
+    z-index:-1;
+}
+
+.list-group{
+  list-style-type: none;
+
+font-family: 'Roboto Slab', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+padding: 100px 0;
+}
+
+.hours{
+      background-color: #f8f9fa;
+      padding-top: 40px;
+      margin: 60px 0;
+
 }
