@@ -119,7 +119,7 @@ a.nav-link{
 
 
 
-img .image{
+image{
 	
 	width:200px;
 	height:100px;
@@ -128,7 +128,7 @@ img .image{
 }
 
 @media only screen and (max-device-width: 500px) {
-  img .image { 
+  image { 
     width: 100px;
 	height:50px;
   }
