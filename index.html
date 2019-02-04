@@ -13,6 +13,9 @@
 <script type="text/javascript" src="https://js.api.here.com/v3/3.0/mapsjs-ui.js"></script>
 <script type="text/javascript" src="https://js.api.here.com/v3/3.0/mapsjs-mapevents.js"></script>
 <link href="https://fonts.googleapis.com/css?family=Raleway" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css?family=Sacramento" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css?family=Merienda" rel="stylesheet">
+<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.1/css/all.css" integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
 <link rel="stylesheet" href="index.css">
 
     <title>Smokers Paradise</title>
@@ -21,27 +24,32 @@
   <body>
 
 
-    <nav class="navbar navbar-expand-lg  navbar-light bg-light fixed-top" id ="navbar">
-    <div class="container">
-      <a class="navbar-brand" href="#">Smokers Express</a>
+    <nav class="navbar navbar-expand-md fixed-top" id ="navbar">
+
+      
+    <img class ="image" src="images/logo2 copy.jpg" >
+  
+ 
 
       <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-    <span class="navbar-toggler-icon"></span>
+    <i class="fas fa-bars"></i>
+	<span class="navbar-toggler-icon"></span>
   </button>
 
       <div class="collapse navbar-collapse" id="navbarSupportedContent">
-        <ul class="navbar-nav mr-auto">
+	  
+        <ul class="navbar-nav ml-auto">
           <li class="nav-item active">
-        <a class="nav-link" href="#">Home<span class="sr-only">(current)</span></a>
+        <a class="nav-link" href="index.html">Home <span class="sr-only">(current)</span></a>
       </li>
       <li class="nav-item">
-        <a class="nav-link" href="products.html">Products</a>
+        <a class="nav-link" href="products.html">Products  </a>
       </li>
       <li class="nav-item">
-        <a class="nav-link" href="#locateUS">Locate Us</a>
+        <a class="nav-link" href="index.html#locateUS">Locate Us  </a>
       </li>
       <li class="nav-item">
-        <a class="nav-link" href="#">Contact Us</a>
+        <a class="nav-link" href="index.html#contactUS">Contact Us  </a>
       </li>
 
 
@@ -50,8 +58,8 @@
 
         </ul>
       </div>
-    </div>
-   </nav>
+  
+  </nav>
 
 
 
@@ -96,13 +104,13 @@
 <br />
 <div id="maps">
 
-<div class = "container">
+<div class = "container" id="locateUS">
   <h2 class="locate"><span  class="line-center">Find Us</span></h2>
-<div class = "row" id="locateUS">
+<div class = "row" >
 
 
 
-    <div id="map" class="col-lg-12" style="height:400px;"> </div>
+    <div id="map" class="col-lg-12" style="height:600px;"> </div>
 
 </div>
 </div>
@@ -118,7 +126,7 @@
 <script src = "map.js"></script>
 </div>
 </div>
-<div class="container">
+<div class="container" id="contactUS">
 
 
 <h2 class="locate"><span  class="line-center">Feedback</span></h2>

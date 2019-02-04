@@ -34,16 +34,16 @@ function addInfoBubble(map) {
   }, false);
 
   addMarkerToGroup(group, {lat: 32.503760 , lng:-92.128475},
-    '<div>Store I' +
-    '</div><div >3182677421<br><a href=\'http://www.mcfc.co.uk\' >Visit Us</a></div>');
+    "<div>Smokers's Express #2"+
+    '</div><div >318-322-3037<br><a href=\'http://www.mcfc.co.uk\' >Visit Us</a></div>');
 
   addMarkerToGroup(group, {lat:32.488610, lng:-92.155700},
-    '<div >Store II' +
-    '</div><div >3185528465<br><a href=\'http://www.liverpoolfc.tv\' >Visit Us</a></div>');
+    "<div>Smokers's Express #5" +
+    '</div><div >318-361-9331<br><a href=\'http://www.liverpoolfc.tv\' >Visit Us</a></div>');
 
   addMarkerToGroup(group, {lat:32.480830, lng:-91.861060},
-      '<div >Start Travel Plaza' +
-      '</div><div >3185576869<br><a href=\'http://www.liverpoolfc.tv\' >Visit Us </a></div>');
+    "<div>Start's Travel Plaza" +
+      '</div><div >318-728-4956<br><a href=\'http://www.liverpoolfc.tv\' >Visit Us </a></div>');
 
 }
 /**
